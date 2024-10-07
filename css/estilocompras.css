@@ -1,0 +1,102 @@
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+body {
+    background-color: #b7fcf8;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  #store-container {
+    display: grid;
+    gap: 10px;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    
+  }
+  
+  #store-container .item {
+    border: solid 10px #c9a6e8;
+    padding: 20px;
+    border-radius: 5%;
+    background-color: rgb(255, 205, 244);
+
+  }
+  
+  #shopping-cart-container {
+    background-color: rgb(183, 221, 254);
+    position: absolute;
+    right: 0;
+    width: 300px;
+    border: solid 5px #1a897e;
+    border-radius: 3%;
+    padding: 10px;
+    background-image: url("./img/biberon.jpg");
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .item .title {
+    font-weight: bold;
+  }
+  .item .price {
+    color: rgb(2, 0, 128);
+    font-weight: bold;
+  }
+  .item div {
+    padding: 5px 0;
+  }
+  
+  .total {
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #92b2ff;
+    color: #000000;
+    text-decoration: none;
+    border: 3px solid #c9a6e8;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+  }
+h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+nav{
+  text-align: center;
+  background-color: #c294eb;
+
+}
+nav ul li{
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color:  #91adee;
+  list-style: none;
+  margin: 20px;
+  display:inline-block;
+}
+h3{
+  float: left;
+  margin: 5px;
+}
+
+.Borde{
+  border: 3px solid #8006eb;
+  width: 1600px;
+  height: 500;
+}
